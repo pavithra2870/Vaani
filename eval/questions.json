@@ -1,0 +1,101 @@
+[
+  {"id": "A1", "type": "answerable", "question": "Why does the Transformer paper scale the dot products by 1/sqrt(d_k) in attention?",
+   "expected": "For large d_k the dot products grow large, pushing softmax into regions with extremely small gradients; scaling counteracts that.",
+   "gold": [{"paper": "attention", "page_regex": "extremely small gradients"}],
+   "keys": [["gradient"], ["softmax"]]},
+
+  {"id": "A2", "type": "answerable", "question": "How many attention heads does the base Transformer use, and what is the dimension of each head?",
+   "expected": "h = 8 heads; d_k = d_v = d_model/h = 64.",
+   "gold": [{"paper": "attention", "page_regex": "h = 8 parallel attention"}],
+   "keys": [["8", "eight"], ["64"]]},
+
+  {"id": "A3", "type": "answerable", "question": "What BLEU score did the big Transformer reach on the WMT 2014 English-to-German translation task?",
+   "expected": "28.4 BLEU.",
+   "gold": [{"paper": "attention", "page_regex": "28\\.4"}],
+   "keys": [["28.4"]]},
+
+  {"id": "A4", "type": "answerable", "question": "How many warmup steps were used in the Transformer's learning rate schedule?",
+   "expected": "warmup_steps = 4000.",
+   "gold": [{"paper": "attention", "page_regex": "warmup_steps = 4000"}],
+   "keys": [["4000", "4,000"]]},
+
+  {"id": "A5", "type": "answerable", "question": "On what hardware and for how long were the base Transformer models trained?",
+   "expected": "One machine with 8 NVIDIA P100 GPUs; base models trained for 100,000 steps, about 12 hours.",
+   "gold": [{"paper": "attention", "page_regex": "P100"}],
+   "keys": [["p100"], ["12 hours", "twelve hours", "100,000", "100000"]]},
+
+  {"id": "M1", "type": "answerable", "question": "What is Moshi's theoretical latency, and what is it in practice?",
+   "expected": "Theoretical latency 160 ms; about 200 ms in practice.",
+   "gold": [{"paper": "moshi", "page_regex": "160 ?ms"}],
+   "keys": [["160"], ["200"]]},
+
+  {"id": "M2", "type": "answerable", "question": "What frame rate and bitrate does the Mimi codec operate at?",
+   "expected": "12.5 Hz frame rate; 1.1 kbps (8 quantizers, codebook size 2048).",
+   "gold": [{"paper": "moshi", "page_regex": "1\\.1 ?kbps"}],
+   "keys": [["12.5"], ["1.1"]]},
+
+  {"id": "M3", "type": "answerable", "question": "What is the 'Inner Monologue' method in Moshi?",
+   "expected": "Moshi first predicts time-aligned text tokens as a prefix to the audio tokens, which improves linguistic quality and enables streaming ASR/TTS.",
+   "gold": [{"paper": "moshi", "page_regex": "time-aligned text tokens"}],
+   "keys": [["text"], ["audio"]]},
+
+  {"id": "M4", "type": "answerable", "question": "What is Helium and how large is it?",
+   "expected": "Helium is the 7B-parameter text LLM pretrained on 2.1T tokens of public English data that Moshi is built on.",
+   "gold": [{"paper": "moshi", "page_regex": "7B[- ]parameter"}],
+   "keys": [["7b", "7 billion"]]},
+
+  {"id": "M5", "type": "answerable", "question": "Which self-supervised model does Mimi distill semantic information from?",
+   "expected": "WavLM (distilled into the first level of the RVQ).",
+   "gold": [{"paper": "moshi", "page_regex": "WavLM"}],
+   "keys": [["wavlm"]]},
+
+  {"id": "M6", "type": "answerable", "trap": "number collision: the Transformer paper also reports training steps (100,000 / 300,000)",
+   "question": "For how many steps was the Helium text language model trained?",
+   "expected": "500k steps (batch size 4.2M tokens).",
+   "gold": [{"paper": "moshi", "page_regex": "500k steps"}],
+   "keys": [["500k", "500 k", "500,000", "500 000"]]},
+
+  {"id": "M7", "type": "answerable", "trap": "vocabulary mismatch: Moshi never says 'vocabulary' (table says 'Text cardinality 32000'); the Transformer paper does",
+   "question": "What is the text vocabulary size of Moshi?",
+   "expected": "32000 (text cardinality in the model-parameter table).",
+   "gold": [{"paper": "moshi", "page_regex": "Text cardinality"}],
+   "keys": [["32000", "32,000", "32k"]]},
+
+  {"id": "H1", "type": "answerable", "question": "How does the routing module in dynamic chunking decide where chunk boundaries go?",
+   "expected": "It uses cosine similarity between adjacent encoder outputs; low similarity (p_t >= 0.5) marks a boundary.",
+   "gold": [{"paper": "dynchunk", "page_regex": "cosine similarity"}],
+   "keys": [["cosine"], ["adjacent", "consecutive"]]},
+
+  {"id": "H2", "type": "answerable", "question": "What is the purpose of the smoothing module in dynamic chunking?",
+   "expected": "It interpolates representations using the router's outputs, attenuating uncertain boundaries and improving learnability.",
+   "gold": [{"paper": "dynchunk", "page_regex": "smoothing module"}],
+   "keys": [["interpolat"], ["boundar"]]},
+
+  {"id": "H3", "type": "answerable", "question": "What does the ratio loss in H-Net control?",
+   "expected": "An auxiliary loss that targets the desired compression (downsampling) ratio, preventing trivial all-or-nothing chunking.",
+   "gold": [{"paper": "dynchunk", "page_regex": "Ratio Loss"}],
+   "keys": [["compress", "downsampl"], ["ratio"]]},
+
+  {"id": "H4", "type": "answerable", "question": "Which metric do the H-Net language modeling experiments use so that models with different input representations can be compared?",
+   "expected": "Bits-per-byte (BPB).",
+   "gold": [{"paper": "dynchunk", "page_regex": "bits-per-byte"}],
+   "keys": [["bits-per-byte", "bits per byte", "bpb"]]},
+
+  {"id": "X1", "type": "cross-paper", "question": "How does the input representation of H-Net differ from the byte-pair encoding used in the original Transformer's translation experiments?",
+   "expected": "H-Net works on raw bytes and learns its own chunking end to end, while the Transformer experiments used a fixed byte-pair-encoding vocabulary (about 37,000 tokens for WMT EN-DE).",
+   "gold": [{"paper": "attention", "page_regex": "byte-pair encoding"}, {"paper": "dynchunk", "page_regex": "operating at the byte level|raw data without the need|end-to-end, tokenizer-free"}],
+   "keys": [["byte"], ["37000", "37,000", "byte-pair", "bpe"]]},
+
+  {"id": "U1", "type": "unanswerable", "question": "What BLEU score does Moshi achieve on the WMT 2014 English-to-German task?",
+   "expected": "Not in the papers (Moshi is a speech dialogue model; no translation results).", "gold": [], "keys": []},
+
+  {"id": "U2", "type": "unanswerable", "trap": "partial overlap: Moshi says 'H100 GPUs' but gives no count or cost",
+   "question": "How many H100 GPUs did the Moshi team use, and what did the training cost in US dollars?",
+   "expected": "Not in the papers (only says models were trained on H100 GPUs).", "gold": [], "keys": []},
+
+  {"id": "U3", "type": "unanswerable", "question": "What top-1 accuracy does the Transformer reach on ImageNet classification?",
+   "expected": "Not in the papers.", "gold": [], "keys": []},
+
+  {"id": "U4", "type": "unanswerable", "question": "Which GPUs, and how many, were used to train the H-Net models?",
+   "expected": "Not in the papers (no hardware is stated).", "gold": [], "keys": []}
+]

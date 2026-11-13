@@ -1,0 +1,476 @@
+request_id,scenario,question_id,model,mode,detail,queue_ms,work_ms,retry_wait_ms,rate_limited_hits,model_calls,queue_len_at_end,wall_start_s
+eval-small-k8-lean-000,eval-small-k8-lean,A1,openai/gpt-oss-120b,lean,answered,0.1,574.2,0.0,0,1,0,0.0
+eval-small-k8-lean-001,eval-small-k8-lean,A2,openai/gpt-oss-120b,lean,answered,0.1,488.6,0.0,0,1,0,0.0
+eval-small-k8-lean-002,eval-small-k8-lean,A3,openai/gpt-oss-120b,lean,answered,0.1,721.0,9741.9,1,2,0,0.0
+eval-small-k8-lean-003,eval-small-k8-lean,A4,openai/gpt-oss-120b,lean,answered,0.2,683.4,12083.5,1,2,0,0.0
+eval-small-k8-lean-004,eval-small-k8-lean,A5,openai/gpt-oss-120b,lean,answered,0.2,753.1,11041.1,1,2,0,0.0
+eval-small-k8-lean-005,eval-small-k8-lean,M1,openai/gpt-oss-120b,lean,answered,0.2,683.9,13107.1,1,2,0,0.0
+eval-small-k8-lean-006,eval-small-k8-lean,M2,openai/gpt-oss-120b,lean,answered,0.2,706.0,10727.0,1,2,0,0.0
+eval-small-k8-lean-007,eval-small-k8-lean,M3,openai/gpt-oss-120b,lean,answered,0.1,791.7,10607.1,1,2,0,0.0
+eval-small-k8-lean-008,eval-small-k8-lean,M4,openai/gpt-oss-120b,lean,answered,0.1,834.5,13353.4,1,2,0,0.0
+eval-small-k8-lean-009,eval-small-k8-lean,M5,openai/gpt-oss-120b,lean,answered,0.3,701.4,14039.7,1,2,0,0.0
+eval-small-k8-lean-010,eval-small-k8-lean,M6,openai/gpt-oss-120b,lean,answered,0.2,664.3,9688.0,1,2,0,0.0
+eval-small-k8-lean-011,eval-small-k8-lean,M7,openai/gpt-oss-120b,lean,refused_by_model,0.2,640.7,14013.8,1,2,0,0.0
+eval-small-k8-lean-012,eval-small-k8-lean,H1,openai/gpt-oss-120b,lean,answered,0.2,888.0,11975.5,1,2,0,0.0
+eval-small-k8-lean-013,eval-small-k8-lean,H2,openai/gpt-oss-120b,lean,answered,0.1,681.2,9356.3,1,2,0,0.0
+eval-small-k8-lean-014,eval-small-k8-lean,H3,openai/gpt-oss-120b,lean,answered,2114.5,816.7,13125.6,1,2,0,0.0
+eval-small-k8-lean-015,eval-small-k8-lean,H4,openai/gpt-oss-120b,lean,answered,4227.9,494.5,4679.1,1,2,0,0.0
+eval-small-k8-lean-016,eval-small-k8-lean,X1,openai/gpt-oss-120b,lean,answered,6275.0,1023.8,7201.4,1,2,0,0.0
+eval-small-k8-lean-017,eval-small-k8-lean,U1,openai/gpt-oss-120b,lean,refused_by_model,7566.8,325.6,4447.4,1,2,0,0.0
+eval-small-k8-lean-018,eval-small-k8-lean,U2,openai/gpt-oss-120b,lean,refused_by_model,8530.9,660.6,2763.6,1,2,0,0.0
+eval-small-k8-lean-019,eval-small-k8-lean,U3,openai/gpt-oss-120b,lean,refused_by_model,11161.7,606.2,2472.9,1,2,0,0.0
+eval-small-k8-lean-020,eval-small-k8-lean,U4,openai/gpt-oss-120b,lean,answered,10532.9,965.4,0.0,0,1,0,0.0
+eval-medium-k4-lean-000,eval-medium-k4-lean,A1,openai/gpt-oss-120b,lean,answered,0.1,853.0,13191.1,1,2,0,0.0
+eval-medium-k4-lean-001,eval-medium-k4-lean,A2,openai/gpt-oss-120b,lean,answered,0.2,1274.4,13100.6,1,2,0,0.0
+eval-medium-k4-lean-002,eval-medium-k4-lean,A3,openai/gpt-oss-120b,lean,answered,0.1,651.4,10833.5,1,2,0,0.0
+eval-medium-k4-lean-003,eval-medium-k4-lean,A4,openai/gpt-oss-120b,lean,answered,0.2,640.6,10935.1,1,2,0,0.0
+eval-medium-k4-lean-004,eval-medium-k4-lean,A5,openai/gpt-oss-120b,lean,answered,0.1,852.9,11552.1,1,2,0,0.0
+eval-medium-k4-lean-005,eval-medium-k4-lean,M1,openai/gpt-oss-120b,lean,answered,0.1,1384.9,10455.9,1,2,0,0.0
+eval-medium-k4-lean-006,eval-medium-k4-lean,M2,openai/gpt-oss-120b,lean,answered,0.1,625.9,10346.8,1,2,0,0.0
+eval-medium-k4-lean-007,eval-medium-k4-lean,M3,openai/gpt-oss-120b,lean,answered,0.1,712.1,9368.5,1,2,0,0.0
+eval-medium-k4-lean-008,eval-medium-k4-lean,M4,openai/gpt-oss-120b,lean,answered,0.1,616.3,12594.2,1,2,0,0.0
+eval-medium-k4-lean-009,eval-medium-k4-lean,M5,openai/gpt-oss-120b,lean,answered,0.1,737.4,11484.4,1,2,0,0.0
+eval-medium-k4-lean-010,eval-medium-k4-lean,M6,openai/gpt-oss-120b,lean,answered,0.1,992.1,12499.7,1,2,0,0.0
+eval-medium-k4-lean-011,eval-medium-k4-lean,M7,openai/gpt-oss-120b,lean,refused_by_model,0.1,474.5,12819.1,1,2,0,0.0
+eval-medium-k4-lean-012,eval-medium-k4-lean,H1,openai/gpt-oss-120b,lean,answered,0.1,1119.2,9651.8,1,2,0,0.0
+eval-medium-k4-lean-013,eval-medium-k4-lean,H2,openai/gpt-oss-120b,lean,answered,0.1,875.8,16713.9,1,2,0,0.0
+eval-medium-k4-lean-014,eval-medium-k4-lean,H3,openai/gpt-oss-120b,lean,answered,0.2,849.2,11603.2,1,2,0,0.0
+eval-medium-k4-lean-015,eval-medium-k4-lean,H4,openai/gpt-oss-120b,lean,answered,0.1,672.0,11112.1,1,2,0,0.0
+eval-medium-k4-lean-016,eval-medium-k4-lean,X1,openai/gpt-oss-120b,lean,answered,0.1,755.9,13872.6,1,2,0,0.0
+eval-medium-k4-lean-017,eval-medium-k4-lean,U1,openai/gpt-oss-120b,lean,refused_by_model,0.1,1164.6,15774.1,1,2,0,0.0
+eval-medium-k4-lean-018,eval-medium-k4-lean,U2,openai/gpt-oss-120b,lean,refused_by_model,0.2,1128.1,6569.4,1,2,0,0.0
+eval-medium-k4-lean-019,eval-medium-k4-lean,U3,openai/gpt-oss-120b,lean,refused_by_model,481.0,611.4,17958.2,1,2,0,0.0
+eval-medium-k4-lean-020,eval-medium-k4-lean,U4,openai/gpt-oss-120b,lean,refused_by_model,0.1,503.5,10286.7,1,2,0,0.0
+eval-medium-k4-rerank-lean-000,eval-medium-k4-rerank-lean,A1,openai/gpt-oss-120b,lean,answered,0.2,743.6,11669.5,1,2,0,0.0
+eval-medium-k4-rerank-lean-001,eval-medium-k4-rerank-lean,A2,openai/gpt-oss-120b,lean,answered,0.1,842.4,15655.1,1,2,0,0.0
+eval-medium-k4-rerank-lean-002,eval-medium-k4-rerank-lean,A3,openai/gpt-oss-120b,lean,answered,0.2,703.0,13082.2,1,2,0,0.0
+eval-medium-k4-rerank-lean-003,eval-medium-k4-rerank-lean,A4,openai/gpt-oss-120b,lean,answered,0.1,558.8,10009.6,1,2,0,0.0
+eval-medium-k4-rerank-lean-004,eval-medium-k4-rerank-lean,A5,openai/gpt-oss-120b,lean,answered,0.2,948.7,10750.8,1,2,0,0.0
+eval-medium-k4-rerank-lean-005,eval-medium-k4-rerank-lean,M1,openai/gpt-oss-120b,lean,answered,0.1,471.6,7993.4,1,2,0,0.0
+eval-medium-k4-rerank-lean-006,eval-medium-k4-rerank-lean,M2,openai/gpt-oss-120b,lean,answered,0.2,659.3,17996.4,1,2,0,0.0
+eval-medium-k4-rerank-lean-007,eval-medium-k4-rerank-lean,M3,openai/gpt-oss-120b,lean,answered,0.0,806.4,0.0,0,1,0,0.0
+eval-medium-k4-rerank-lean-008,eval-medium-k4-rerank-lean,M4,openai/gpt-oss-120b,lean,answered,0.2,684.0,14528.8,1,2,0,0.0
+eval-medium-k4-rerank-lean-009,eval-medium-k4-rerank-lean,M5,openai/gpt-oss-120b,lean,answered,0.1,660.1,7868.5,1,2,0,0.0
+eval-medium-k4-rerank-lean-010,eval-medium-k4-rerank-lean,M6,openai/gpt-oss-120b,lean,answered,0.1,685.9,10381.6,1,2,0,0.0
+eval-medium-k4-rerank-lean-011,eval-medium-k4-rerank-lean,M7,openai/gpt-oss-120b,lean,refused_by_model,0.1,658.8,14105.5,1,2,0,0.0
+eval-medium-k4-rerank-lean-012,eval-medium-k4-rerank-lean,H1,openai/gpt-oss-120b,lean,answered,0.2,1011.5,16148.6,1,2,0,0.0
+eval-medium-k4-rerank-lean-013,eval-medium-k4-rerank-lean,H2,openai/gpt-oss-120b,lean,answered,0.1,851.5,8362.6,1,2,0,0.0
+eval-medium-k4-rerank-lean-014,eval-medium-k4-rerank-lean,H3,openai/gpt-oss-120b,lean,answered,2784.0,910.0,11713.1,1,2,0,0.0
+eval-medium-k4-rerank-lean-015,eval-medium-k4-rerank-lean,H4,openai/gpt-oss-120b,lean,refused_by_model,2757.8,705.6,10457.4,1,2,0,0.0
+eval-medium-k4-rerank-lean-016,eval-medium-k4-rerank-lean,X1,openai/gpt-oss-120b,lean,answered,1681.6,793.9,9824.8,1,2,0,0.0
+eval-medium-k4-rerank-lean-017,eval-medium-k4-rerank-lean,U1,openai/gpt-oss-120b,lean,refused_by_model,6294.7,497.5,7336.3,1,2,0,0.0
+eval-medium-k4-rerank-lean-018,eval-medium-k4-rerank-lean,U2,openai/gpt-oss-120b,lean,refused_by_model,6769.5,454.7,3861.7,1,2,0,0.0
+eval-medium-k4-rerank-lean-019,eval-medium-k4-rerank-lean,U3,openai/gpt-oss-120b,lean,refused_by_model,10088.3,635.7,7931.4,1,2,0,0.0
+eval-medium-k4-rerank-lean-020,eval-medium-k4-rerank-lean,U4,openai/gpt-oss-120b,lean,refused_by_model,7673.3,520.3,1302.4,1,2,0,0.0
+eval-large-k2-lean-000,eval-large-k2-lean,A1,openai/gpt-oss-120b,lean,answered,0.2,865.1,12375.2,1,2,0,0.0
+eval-large-k2-lean-001,eval-large-k2-lean,A2,openai/gpt-oss-120b,lean,answered,0.1,791.5,13159.1,1,2,0,0.0
+eval-large-k2-lean-002,eval-large-k2-lean,A3,openai/gpt-oss-120b,lean,answered,0.1,769.1,10061.8,1,2,0,0.0
+eval-large-k2-lean-003,eval-large-k2-lean,A4,openai/gpt-oss-120b,lean,answered,0.1,439.2,6239.8,1,2,0,0.0
+eval-large-k2-lean-004,eval-large-k2-lean,A5,openai/gpt-oss-120b,lean,answered,0.1,968.6,10480.7,1,2,0,0.0
+eval-large-k2-lean-005,eval-large-k2-lean,M1,openai/gpt-oss-120b,lean,answered,0.1,654.0,2879.4,1,2,0,0.0
+eval-large-k2-lean-006,eval-large-k2-lean,M2,openai/gpt-oss-120b,lean,answered,0.1,813.9,16326.2,1,2,0,0.0
+eval-large-k2-lean-007,eval-large-k2-lean,M3,openai/gpt-oss-120b,lean,answered,0.1,876.6,9401.1,1,2,0,0.0
+eval-large-k2-lean-008,eval-large-k2-lean,M4,openai/gpt-oss-120b,lean,refused_by_model,0.1,912.0,17349.0,1,2,0,0.0
+eval-large-k2-lean-009,eval-large-k2-lean,M5,openai/gpt-oss-120b,lean,answered,0.2,715.2,3266.1,1,2,0,0.0
+eval-large-k2-lean-010,eval-large-k2-lean,M6,openai/gpt-oss-120b,lean,answered,0.2,920.6,14060.8,1,2,0,0.0
+eval-large-k2-lean-011,eval-large-k2-lean,M7,openai/gpt-oss-120b,lean,refused_by_model,0.1,432.8,3114.7,1,2,0,0.0
+eval-large-k2-lean-012,eval-large-k2-lean,H1,openai/gpt-oss-120b,lean,answered,0.1,1356.6,11534.3,1,2,0,0.0
+eval-large-k2-lean-013,eval-large-k2-lean,H2,openai/gpt-oss-120b,lean,answered,0.1,819.5,10010.2,1,2,0,0.0
+eval-large-k2-lean-014,eval-large-k2-lean,H3,openai/gpt-oss-120b,lean,answered,0.1,1004.0,8012.0,1,2,0,0.0
+eval-large-k2-lean-015,eval-large-k2-lean,H4,openai/gpt-oss-120b,lean,refused_by_model,0.1,733.2,8871.0,1,2,0,0.0
+eval-large-k2-lean-016,eval-large-k2-lean,X1,openai/gpt-oss-120b,lean,answered,0.1,1232.5,17333.4,1,2,0,0.0
+eval-large-k2-lean-017,eval-large-k2-lean,U1,openai/gpt-oss-120b,lean,refused_by_model,0.1,627.5,8195.8,1,2,0,0.0
+eval-large-k2-lean-018,eval-large-k2-lean,U2,openai/gpt-oss-120b,lean,refused_by_model,0.1,720.9,15474.2,1,2,0,0.0
+eval-large-k2-lean-019,eval-large-k2-lean,U3,openai/gpt-oss-120b,lean,refused_weak_evidence,0.0,0.0,0.0,0,0,0,0.0
+eval-large-k2-lean-020,eval-large-k2-lean,U4,openai/gpt-oss-120b,lean,refused_by_model,0.1,399.4,4016.5,1,2,0,0.0
+eval-small-k8-lean-20b-000,eval-small-k8-lean-20b,A1,openai/gpt-oss-20b,lean,answered,0.1,1668.3,0.0,0,1,0,0.0
+eval-small-k8-lean-20b-001,eval-small-k8-lean-20b,A2,openai/gpt-oss-20b,lean,answered,0.1,606.7,0.0,0,1,0,0.0
+eval-small-k8-lean-20b-002,eval-small-k8-lean-20b,A3,openai/gpt-oss-20b,lean,answered,0.0,694.2,0.0,0,1,0,0.0
+eval-small-k8-lean-20b-003,eval-small-k8-lean-20b,A4,openai/gpt-oss-20b,lean,answered,0.0,379.0,0.0,0,1,0,0.0
+eval-small-k8-lean-20b-004,eval-small-k8-lean-20b,A5,openai/gpt-oss-20b,lean,answered,7206.6,543.4,0.0,0,1,0,0.0
+eval-small-k8-lean-20b-005,eval-small-k8-lean-20b,M1,openai/gpt-oss-20b,lean,answered,14440.4,592.8,0.0,0,1,0,0.0
+eval-small-k8-lean-20b-006,eval-small-k8-lean-20b,M2,openai/gpt-oss-20b,lean,answered,11250.9,1431.4,0.0,0,1,0,0.0
+eval-small-k8-lean-20b-007,eval-small-k8-lean-20b,M3,openai/gpt-oss-20b,lean,answered,13855.8,767.4,0.0,0,1,0,0.0
+eval-small-k8-lean-20b-008,eval-small-k8-lean-20b,M4,openai/gpt-oss-20b,lean,answered,11117.1,652.9,0.0,0,1,0,0.0
+eval-small-k8-lean-20b-009,eval-small-k8-lean-20b,M5,openai/gpt-oss-20b,lean,answered,15574.7,596.7,0.0,0,1,0,0.0
+eval-small-k8-lean-20b-010,eval-small-k8-lean-20b,M6,openai/gpt-oss-20b,lean,answered,11961.2,320.2,0.0,0,1,0,0.0
+eval-small-k8-lean-20b-011,eval-small-k8-lean-20b,M7,openai/gpt-oss-20b,lean,refused_by_model,14365.9,880.9,0.0,0,1,0,0.0
+eval-small-k8-lean-20b-012,eval-small-k8-lean-20b,H1,openai/gpt-oss-20b,lean,answered,14270.5,494.7,0.0,0,1,0,0.0
+eval-small-k8-lean-20b-013,eval-small-k8-lean-20b,H2,openai/gpt-oss-20b,lean,answered,12402.0,903.9,0.0,0,1,0,0.0
+eval-small-k8-lean-20b-014,eval-small-k8-lean-20b,H3,openai/gpt-oss-20b,lean,answered,13384.6,614.8,0.0,0,1,0,0.0
+eval-small-k8-lean-20b-015,eval-small-k8-lean-20b,H4,openai/gpt-oss-20b,lean,refused_by_model,17464.5,503.6,0.0,0,1,0,0.0
+eval-small-k8-lean-20b-016,eval-small-k8-lean-20b,X1,openai/gpt-oss-20b,lean,answered,11211.1,394.4,0.0,0,1,0,0.0
+eval-small-k8-lean-20b-017,eval-small-k8-lean-20b,U1,openai/gpt-oss-20b,lean,refused_by_model,15172.8,494.8,0.0,0,1,0,0.0
+eval-small-k8-lean-20b-018,eval-small-k8-lean-20b,U2,openai/gpt-oss-20b,lean,refused_by_model,12765.9,381.2,0.0,0,1,0,0.0
+eval-small-k8-lean-20b-019,eval-small-k8-lean-20b,U3,openai/gpt-oss-20b,lean,refused_by_model,14164.2,265.6,0.0,0,1,0,0.0
+eval-small-k8-lean-20b-020,eval-small-k8-lean-20b,U4,openai/gpt-oss-20b,lean,answered,13406.1,741.5,0.0,0,1,0,0.0
+eval-small-k8-full-20b-000,eval-small-k8-full-20b,A1,openai/gpt-oss-20b,full,answered,0.2,3665.4,0.0,0,3,0,0.0
+eval-small-k8-full-20b-001,eval-small-k8-full-20b,A2,openai/gpt-oss-20b,full,answered,17910.7,1837.6,0.0,0,3,0,0.0
+eval-small-k8-full-20b-002,eval-small-k8-full-20b,A3,openai/gpt-oss-20b,full,answered,30984.5,1441.0,0.0,0,3,0,0.0
+eval-small-k8-full-20b-003,eval-small-k8-full-20b,A4,openai/gpt-oss-20b,full,answered,28716.6,1736.7,0.0,0,3,0,0.0
+eval-small-k8-full-20b-004,eval-small-k8-full-20b,A5,openai/gpt-oss-20b,full,refused_failed_check,51662.3,3033.3,0.0,0,4,0,0.0
+eval-small-k8-full-20b-005,eval-small-k8-full-20b,M1,openai/gpt-oss-20b,full,answered,30611.5,1230.6,0.0,0,3,0,0.0
+eval-small-k8-full-20b-006,eval-small-k8-full-20b,M2,openai/gpt-oss-20b,full,refused_off_topic,0.1,159.1,0.0,0,1,0,0.0
+eval-small-k8-full-20b-007,eval-small-k8-full-20b,M3,openai/gpt-oss-20b,full,answered,27704.3,1992.7,0.0,0,3,0,0.0
+eval-small-k8-full-20b-008,eval-small-k8-full-20b,M4,openai/gpt-oss-20b,full,refused_off_topic,0.0,189.5,0.0,0,1,0,0.0
+eval-small-k8-full-20b-009,eval-small-k8-full-20b,M5,openai/gpt-oss-20b,full,answered,28608.0,1257.8,0.0,0,3,0,0.0
+eval-small-k8-full-20b-010,eval-small-k8-full-20b,M6,openai/gpt-oss-20b,full,refused_off_topic,0.1,618.4,0.0,0,1,0,0.0
+eval-small-k8-full-20b-011,eval-small-k8-full-20b,M7,openai/gpt-oss-20b,full,refused_by_model,17363.0,687.2,0.0,0,2,0,0.0
+eval-small-k8-full-20b-012,eval-small-k8-full-20b,H1,openai/gpt-oss-20b,full,answered,28137.1,1502.0,0.0,0,3,0,0.0
+eval-small-k8-full-20b-013,eval-small-k8-full-20b,H2,openai/gpt-oss-20b,full,answered,25522.5,2714.0,0.0,0,3,0,0.0
+eval-small-k8-full-20b-014,eval-small-k8-full-20b,H3,openai/gpt-oss-20b,full,refused_by_model,17640.5,1252.1,0.0,0,2,0,0.0
+eval-small-k8-full-20b-015,eval-small-k8-full-20b,H4,openai/gpt-oss-20b,full,answered,25705.0,2397.4,0.0,0,3,0,0.0
+eval-small-k8-full-20b-016,eval-small-k8-full-20b,X1,openai/gpt-oss-20b,full,refused_by_model,17140.5,1292.6,0.0,0,2,0,0.0
+eval-small-k8-full-20b-017,eval-small-k8-full-20b,U1,openai/gpt-oss-20b,full,refused_by_model,12401.9,1024.4,0.0,0,2,0,0.0
+eval-small-k8-full-20b-018,eval-small-k8-full-20b,U2,openai/gpt-oss-20b,full,refused_by_model,15218.7,763.5,0.0,0,2,0,0.0
+eval-small-k8-full-20b-019,eval-small-k8-full-20b,U3,openai/gpt-oss-20b,full,refused_off_topic,0.1,487.1,0.0,0,1,0,0.0
+eval-small-k8-full-20b-020,eval-small-k8-full-20b,U4,openai/gpt-oss-20b,full,refused_by_model,43781.3,2069.2,0.0,0,4,0,0.0
+eval-small-k8-full-20b-rerun7-000,eval-small-k8-full-20b-rerun7,A5,openai/gpt-oss-20b,full,refused_failed_check,0.2,2322.5,0.0,0,3,0,0.0
+eval-small-k8-full-20b-rerun7-001,eval-small-k8-full-20b-rerun7,M2,openai/gpt-oss-20b,full,answered,0.1,2128.3,0.0,0,3,0,0.0
+eval-small-k8-full-20b-rerun7-002,eval-small-k8-full-20b-rerun7,M4,openai/gpt-oss-20b,full,answered,25818.9,2523.2,0.0,0,3,0,0.0
+eval-small-k8-full-20b-rerun7-003,eval-small-k8-full-20b-rerun7,M6,openai/gpt-oss-20b,full,answered,28749.2,1627.5,0.0,0,3,0,0.0
+eval-small-k8-full-20b-rerun7-004,eval-small-k8-full-20b-rerun7,M7,openai/gpt-oss-20b,full,refused_by_model,16930.2,823.3,0.0,0,2,0,0.0
+eval-small-k8-full-20b-rerun7-005,eval-small-k8-full-20b-rerun7,H3,openai/gpt-oss-20b,full,refused_by_model,17710.4,1023.4,0.0,0,2,0,0.0
+eval-small-k8-full-20b-rerun7-006,eval-small-k8-full-20b-rerun7,X1,openai/gpt-oss-20b,full,answered,58664.2,3114.3,0.0,0,5,0,0.0
+steady-real-000,steady-real,U4,openai/gpt-oss-20b,full,refused_by_model,6913.3,1379.9,0.0,0,4,0,0.0
+steady-real-001,steady-real,A4,openai/gpt-oss-20b,full,answered,5605.3,1355.9,0.0,0,3,0,30.014
+steady-real-002,steady-real,A1,openai/gpt-oss-20b,full,refused_by_model,0.1,1265.9,0.0,0,2,0,60.012
+steady-real-003,steady-real,M4,openai/gpt-oss-20b,full,answered,0.2,1495.4,0.0,0,3,0,90.012
+steady-real-004,steady-real,M3,openai/gpt-oss-20b,full,answered,0.2,1532.0,0.0,0,3,0,120.008
+steady-real-005,steady-real,X1,openai/gpt-oss-20b,full,refused_failed_check,23474.5,3422.4,0.0,0,5,0,150.005
+burst-real-003,burst-real,M4,openai/gpt-oss-20b,none,shed_busy,0.0,0.0,0.0,0,0,0,0.524
+burst-real-004,burst-real,M3,openai/gpt-oss-20b,none,shed_busy,0.0,0.0,0.0,0,0,0,0.666
+burst-real-005,burst-real,X1,openai/gpt-oss-20b,none,shed_busy,0.0,0.0,0.0,0,0,0,0.834
+burst-real-000,burst-real,U4,openai/gpt-oss-20b,full,refused_by_model,0.1,960.0,0.0,0,2,0,0.0
+burst-real-002,burst-real,A1,openai/gpt-oss-20b,lean,answered,0.0,773.4,0.0,0,1,1,0.325
+burst-real-001,burst-real,A4,openai/gpt-oss-20b,full,answered,14945.6,1229.5,0.0,0,3,0,0.162
+burst-real-006,burst-real,A3,openai/gpt-oss-20b,full,answered,0.2,2108.8,0.0,0,3,0,45.009
+burst-real-007,burst-real,M7,openai/gpt-oss-20b,full,refused_by_model,0.2,1127.9,0.0,0,2,0,90.001
+steady-sim-000,steady-sim,U4,stand-in,full,answered,0.1,3156.9,0.0,0,3,0,0.0
+steady-sim-001,steady-sim,A4,stand-in,full,answered,0.3,3767.6,0.0,0,3,0,20.002
+steady-sim-002,steady-sim,A1,stand-in,full,answered,0.2,2358.9,0.0,0,3,0,40.007
+steady-sim-003,steady-sim,M4,stand-in,full,answered,4373.5,1531.7,0.0,0,3,0,59.998
+steady-sim-004,steady-sim,M3,stand-in,full,answered,18242.7,2128.6,0.0,0,3,1,79.997
+steady-sim-005,steady-sim,X1,stand-in,lean,answered,16972.7,2638.8,0.0,0,1,0,100.012
+steady-sim-006,steady-sim,A3,stand-in,lean,answered,14228.2,664.2,0.0,0,1,0,119.992
+steady-sim-007,steady-sim,M7,stand-in,lean,answered,10563.3,677.3,0.0,0,1,0,140.007
+steady-sim-008,steady-sim,A2,stand-in,lean,answered,4415.5,329.3,0.0,0,1,0,159.996
+steady-sim-009,steady-sim,M6,stand-in,full,answered,14885.2,1438.6,0.0,0,3,0,179.996
+steady-sim-010,steady-sim,U1,stand-in,lean,answered,14073.5,849.9,0.0,0,1,0,199.995
+steady-sim-011,steady-sim,H1,stand-in,lean,answered,10421.0,585.2,0.0,0,1,0,220.002
+steady-sim-012,steady-sim,M2,stand-in,lean,answered,5836.2,614.0,0.0,0,1,0,240.004
+steady-sim-013,steady-sim,U2,stand-in,full,answered,16058.3,1823.1,0.0,0,3,0,259.998
+steady-sim-014,steady-sim,H4,stand-in,lean,answered,17349.0,455.4,0.0,0,1,0,279.993
+steady-sim-015,steady-sim,H2,stand-in,lean,answered,13487.0,223.4,0.0,0,1,0,299.985
+steady-sim-016,steady-sim,M5,stand-in,lean,answered,10195.1,868.3,0.0,0,1,0,319.993
+steady-sim-017,steady-sim,A5,stand-in,lean,answered,5912.9,664.3,0.0,0,1,0,339.995
+steady-sim-018,steady-sim,H3,stand-in,full,answered,17789.0,1729.4,0.0,0,3,0,359.995
+steady-sim-019,steady-sim,M1,stand-in,lean,answered,17130.0,1167.7,0.0,0,1,0,380.007
+steady-sim-020,steady-sim,U3,stand-in,lean,answered,14299.4,533.5,0.0,0,1,0,400.0
+steady-sim-021,steady-sim,U4,stand-in,lean,answered,9024.5,1525.5,0.0,0,1,0,419.989
+steady-sim-022,steady-sim,A4,stand-in,lean,answered,3741.8,296.2,0.0,0,1,0,439.997
+steady-sim-023,steady-sim,A1,stand-in,full,answered,12782.6,1639.8,0.0,0,3,0,460.005
+steady-sim-024,steady-sim,M4,stand-in,lean,answered,10703.9,458.0,0.0,0,1,0,479.993
+steady-sim-025,steady-sim,M3,stand-in,lean,answered,7455.1,414.5,0.0,0,1,0,499.997
+steady-sim-026,steady-sim,X1,stand-in,full,answered,17649.7,3196.1,0.0,0,3,1,519.997
+steady-sim-027,steady-sim,A3,stand-in,lean,answered,18281.5,302.4,0.0,0,1,0,540.001
+steady-sim-028,steady-sim,M7,stand-in,lean,answered,15016.8,975.6,0.0,0,1,0,559.998
+steady-sim-029,steady-sim,A2,stand-in,lean,answered,8861.9,996.7,0.0,0,1,0,579.999
+burst-sim-003,burst-sim,M4,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,0,0.251
+burst-sim-004,burst-sim,M3,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,0,0.313
+burst-sim-005,burst-sim,X1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,0,0.392
+burst-sim-006,burst-sim,A3,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,0,0.47
+burst-sim-007,burst-sim,M7,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,0,0.534
+burst-sim-008,burst-sim,A2,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,0,0.592
+burst-sim-009,burst-sim,M6,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,0,0.691
+burst-sim-010,burst-sim,U1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,0,0.769
+burst-sim-011,burst-sim,H1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,0,0.812
+burst-sim-012,burst-sim,M2,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,0,0.909
+burst-sim-013,burst-sim,U2,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,0,0.986
+burst-sim-014,burst-sim,H4,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,0,1.063
+burst-sim-015,burst-sim,H2,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,0,1.141
+burst-sim-016,burst-sim,M5,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,0,1.218
+burst-sim-017,burst-sim,A5,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,0,1.28
+burst-sim-018,burst-sim,H3,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,0,1.356
+burst-sim-019,burst-sim,M1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,1.435
+burst-sim-020,burst-sim,U3,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,1.512
+burst-sim-002,burst-sim,A1,stand-in,lean,answered,0.0,1361.4,0.0,0,1,1,0.157
+burst-sim-021,burst-sim,U4,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,1.563
+burst-sim-022,burst-sim,A4,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,1.653
+burst-sim-023,burst-sim,A1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,1.73
+burst-sim-024,burst-sim,M4,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,1.824
+burst-sim-025,burst-sim,M3,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,1.902
+burst-sim-026,burst-sim,X1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,1.963
+burst-sim-027,burst-sim,A3,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,2.024
+burst-sim-028,burst-sim,M7,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,2.119
+burst-sim-029,burst-sim,A2,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,2.198
+burst-sim-030,burst-sim,M6,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,2.275
+burst-sim-031,burst-sim,U1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,2.337
+burst-sim-032,burst-sim,H1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,2.417
+burst-sim-033,burst-sim,M2,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,2.481
+burst-sim-034,burst-sim,U2,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,2.559
+burst-sim-035,burst-sim,H4,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,2.637
+burst-sim-036,burst-sim,H2,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,2.699
+burst-sim-037,burst-sim,M5,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,2.776
+burst-sim-038,burst-sim,A5,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,2.869
+burst-sim-039,burst-sim,H3,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,2.947
+burst-sim-001,burst-sim,A4,stand-in,full,answered,2827.9,2459.9,0.0,0,3,1,0.094
+burst-sim-000,burst-sim,U4,stand-in,full,answered,14024.0,3800.2,0.0,0,3,0,0.002
+burst-sim-040,burst-sim,M1,stand-in,full,answered,0.2,2088.4,0.0,0,3,0,60.014
+burst-sim-041,burst-sim,U3,stand-in,full,answered,0.2,1633.2,0.0,0,3,0,120.015
+burst-sim-042,burst-sim,U4,stand-in,full,answered,0.2,4227.5,0.0,0,3,0,180.009
+overload-sim-001,overload-sim,A4,stand-in,full,answered,0.2,2767.4,0.0,0,3,0,2.776
+overload-sim-000,overload-sim,U4,stand-in,full,answered,0.1,4648.9,0.0,0,3,0,1.97
+overload-sim-003,overload-sim,M4,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,8.413
+overload-sim-004,overload-sim,M3,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,12.264
+overload-sim-005,overload-sim,X1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,14.54
+overload-sim-006,overload-sim,A3,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,14.84
+overload-sim-008,overload-sim,A2,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,2,18.555
+overload-sim-002,overload-sim,A1,stand-in,lean,answered,12667.5,399.7,0.0,0,1,1,8.038
+overload-sim-009,overload-sim,M6,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,21.413
+overload-sim-010,overload-sim,U1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,21.775
+overload-sim-011,overload-sim,H1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,22.248
+overload-sim-012,overload-sim,M2,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,25.01
+overload-sim-014,overload-sim,H4,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,2,34.445
+overload-sim-015,overload-sim,H2,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,2,35.712
+overload-sim-007,overload-sim,M7,stand-in,lean,answered,19895.4,1323.7,0.0,0,1,1,18.367
+overload-sim-016,overload-sim,M5,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,40.637
+overload-sim-013,overload-sim,U2,stand-in,lean,answered,20107.1,629.7,0.0,0,1,0,33.767
+overload-sim-018,overload-sim,H3,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,59.69
+overload-sim-019,overload-sim,M1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,62.222
+overload-sim-017,overload-sim,A5,stand-in,lean,answered,13212.1,377.0,0.0,0,1,0,55.403
+overload-sim-020,overload-sim,U3,stand-in,lean,answered,4879.8,534.4,0.0,0,1,1,80.927
+overload-sim-022,overload-sim,A4,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,90.926
+overload-sim-023,overload-sim,A1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,92.648
+overload-sim-024,overload-sim,M4,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,93.414
+overload-sim-025,overload-sim,M3,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,94.055
+overload-sim-026,overload-sim,X1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,95.897
+overload-sim-021,overload-sim,U4,stand-in,lean,answered,20575.3,585.5,0.0,0,1,0,81.159
+overload-sim-028,overload-sim,M7,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,105.366
+overload-sim-029,overload-sim,A2,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,109.722
+overload-sim-031,overload-sim,U1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,2,117.149
+overload-sim-027,overload-sim,A3,stand-in,lean,answered,12874.8,579.3,0.0,0,1,1,104.362
+overload-sim-032,overload-sim,H1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,121.108
+overload-sim-033,overload-sim,M2,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,121.438
+overload-sim-034,overload-sim,U2,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,121.737
+overload-sim-035,overload-sim,H4,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,122.901
+overload-sim-036,overload-sim,H2,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,128.593
+overload-sim-038,overload-sim,A5,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,2,133.27
+overload-sim-030,overload-sim,M6,stand-in,lean,answered,19131.6,885.5,0.0,0,1,1,114.816
+overload-sim-039,overload-sim,H3,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,137.673
+overload-sim-040,overload-sim,M1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,140.688
+overload-sim-041,overload-sim,U3,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,142.474
+overload-sim-037,overload-sim,M5,stand-in,lean,answered,18888.3,700.9,0.0,0,1,1,131.385
+overload-sim-043,overload-sim,A4,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,156.386
+overload-sim-044,overload-sim,A1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,157.789
+overload-sim-046,overload-sim,M3,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,165.772
+overload-sim-042,overload-sim,U4,stand-in,lean,answered,14618.1,2572.1,0.0,0,1,1,150.382
+overload-sim-045,overload-sim,M4,stand-in,lean,answered,18215.1,655.8,0.0,0,1,1,162.063
+overload-sim-048,overload-sim,A3,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,182.727
+overload-sim-049,overload-sim,M7,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,184.419
+overload-sim-047,overload-sim,X1,stand-in,lean,answered,20535.1,679.3,0.0,0,1,0,176.193
+overload-sim-051,overload-sim,M6,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,204.651
+overload-sim-052,overload-sim,U1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,207.353
+overload-sim-050,overload-sim,A2,stand-in,lean,answered,5348.8,333.0,0.0,0,1,0,204.018
+overload-sim-054,overload-sim,M2,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,215.272
+overload-sim-055,overload-sim,U2,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,218.622
+overload-sim-056,overload-sim,H4,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,218.809
+overload-sim-053,overload-sim,H1,stand-in,lean,answered,11483.1,205.4,0.0,0,1,1,214.438
+overload-sim-058,overload-sim,M5,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,231.563
+overload-sim-059,overload-sim,A5,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,235.824
+overload-sim-057,overload-sim,H2,stand-in,lean,answered,18711.6,812.8,0.0,0,1,0,224.339
+overload-sim-061,overload-sim,M1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,248.119
+overload-sim-062,overload-sim,U3,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,254.058
+overload-sim-060,overload-sim,H3,stand-in,lean,answered,12172.3,368.2,0.0,0,1,1,246.225
+overload-sim-064,overload-sim,A4,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,262.918
+overload-sim-065,overload-sim,A1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,265.946
+overload-sim-063,overload-sim,U4,stand-in,lean,answered,15732.2,817.6,0.0,0,1,1,258.576
+overload-sim-066,overload-sim,M4,stand-in,lean,answered,14698.8,573.6,0.0,0,1,1,275.117
+overload-sim-068,overload-sim,X1,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,292.806
+overload-sim-069,overload-sim,A3,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,298.26
+overload-sim-070,overload-sim,M7,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,298.572
+overload-sim-067,overload-sim,M3,stand-in,lean,answered,16805.1,628.9,0.0,0,1,0,289.58
+limit-halved-sim-000,limit-halved-sim,U4,stand-in,full,answered,0.1,3176.2,0.0,0,3,0,0.001
+limit-halved-sim-001,limit-halved-sim,A4,stand-in,full,answered_unverified,16895.6,2559.7,0.0,1,3,0,19.994
+limit-halved-sim-002,limit-halved-sim,A1,stand-in,lean,answered,7723.1,1108.6,5403.8,1,2,0,39.999
+limit-halved-sim-003,limit-halved-sim,M4,stand-in,lean,gave up waiting for a turn,11799.0,5.8,11886.0,1,1,0,60.001
+limit-halved-sim-004,limit-halved-sim,M3,stand-in,full,answered_unverified,18857.7,1657.2,0.0,1,3,1,79.998
+limit-halved-sim-005,limit-halved-sim,X1,stand-in,lean,answered,17955.3,627.0,0.0,0,1,0,99.991
+limit-halved-sim-006,limit-halved-sim,A3,stand-in,lean,answered,15197.9,555.9,11375.2,1,2,1,120.006
+limit-halved-sim-007,limit-halved-sim,M7,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 4000, Used 2808, Requested 1886. Please try again in 10.4s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",22769.0,276.1,1078.6,2,3,1,140.004
+limit-halved-sim-008,limit-halved-sim,A2,stand-in,lean,answered,19018.7,583.7,0.0,0,1,0,159.996
+limit-halved-sim-009,limit-halved-sim,M6,stand-in,lean,gave up waiting for a turn,13113.2,5.4,10053.6,1,1,0,179.996
+limit-halved-sim-010,limit-halved-sim,U1,stand-in,full,answered_unverified,18532.2,1310.7,0.0,1,3,0,199.994
+limit-halved-sim-011,limit-halved-sim,H1,stand-in,lean,answered,8336.8,714.0,4274.4,1,2,0,219.998
+limit-halved-sim-012,limit-halved-sim,M2,stand-in,lean,gave up waiting for a turn,9255.1,5.5,14180.7,1,1,0,240.004
+limit-halved-sim-013,limit-halved-sim,U2,stand-in,full,answered_unverified,16420.2,2593.9,0.0,1,3,0,259.989
+limit-halved-sim-014,limit-halved-sim,H4,stand-in,lean,answered,9861.0,699.3,8622.8,1,2,0,280.003
+limit-halved-sim-015,limit-halved-sim,H2,stand-in,lean,answered,14527.3,198.5,13376.9,1,2,1,300.002
+limit-halved-sim-016,limit-halved-sim,M5,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 4000, Used 2782, Requested 1906. Please try again in 10.3s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",23345.9,264.1,2018.7,2,3,1,320.0
+limit-halved-sim-017,limit-halved-sim,A5,stand-in,lean,answered,22295.2,794.7,0.0,0,1,0,339.987
+daily-exhausted-sim-000,daily-exhausted-sim,U4,stand-in,full,answered,0.1,3173.6,0.0,0,3,0,0.001
+daily-exhausted-sim-001,daily-exhausted-sim,A4,stand-in,full,answered,0.3,3759.6,0.0,0,3,0,10.02
+daily-exhausted-sim-002,daily-exhausted-sim,A1,stand-in,full,answered,11664.1,2363.4,0.0,0,3,1,20.007
+daily-exhausted-sim-004,daily-exhausted-sim,M3,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,40.01
+daily-exhausted-sim-003,daily-exhausted-sim,M4,stand-in,lean,answered,19793.3,366.4,0.0,0,1,1,30.006
+daily-exhausted-sim-006,daily-exhausted-sim,A3,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,60.009
+daily-exhausted-sim-005,daily-exhausted-sim,X1,stand-in,lean,answered,17562.5,524.3,0.0,0,1,0,50.023
+daily-exhausted-sim-007,daily-exhausted-sim,M7,stand-in,lean,answered,12921.3,613.9,0.0,0,1,1,70.009
+daily-exhausted-sim-009,daily-exhausted-sim,M6,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,90.02
+daily-exhausted-sim-008,daily-exhausted-sim,A2,stand-in,lean,answered,17973.2,516.1,0.0,0,1,0,80.006
+daily-exhausted-sim-010,daily-exhausted-sim,U1,stand-in,lean,answered,13241.1,875.9,0.0,0,1,1,100.02
+daily-exhausted-sim-012,daily-exhausted-sim,M2,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,120.014
+daily-exhausted-sim-011,daily-exhausted-sim,H1,stand-in,lean,answered,20815.9,697.8,0.0,0,1,1,110.006
+daily-exhausted-sim-014,daily-exhausted-sim,H4,stand-in,none,shed_busy,0.0,0.0,0.0,0,0,1,140.01
+daily-exhausted-sim-013,daily-exhausted-sim,U2,stand-in,lean,budget_exhausted_extractive,16420.1,4.4,0.0,1,1,0,130.014
+daily-exhausted-sim-015,daily-exhausted-sim,H2,stand-in,none,budget_exhausted_extractive,0.0,0.0,0.0,0,0,0,150.006
+daily-exhausted-sim-016,daily-exhausted-sim,M5,stand-in,none,budget_exhausted_extractive,0.0,0.0,0.0,0,0,0,160.006
+daily-exhausted-sim-017,daily-exhausted-sim,A5,stand-in,none,budget_exhausted_extractive,0.0,0.0,0.0,0,0,0,170.002
+daily-exhausted-sim-018,daily-exhausted-sim,H3,stand-in,none,budget_exhausted_extractive,0.0,0.0,0.0,0,0,0,180.006
+daily-exhausted-sim-019,daily-exhausted-sim,M1,stand-in,none,budget_exhausted_extractive,0.0,0.0,0.0,0,0,0,190.008
+daily-exhausted-sim-020,daily-exhausted-sim,U3,stand-in,none,budget_exhausted_extractive,0.0,0.0,0.0,0,0,0,200.015
+daily-exhausted-sim-021,daily-exhausted-sim,U4,stand-in,none,budget_exhausted_extractive,0.0,0.0,0.0,0,0,0,210.003
+daily-exhausted-sim-022,daily-exhausted-sim,A4,stand-in,none,budget_exhausted_extractive,0.0,0.0,0.0,0,0,0,220.007
+daily-exhausted-sim-023,daily-exhausted-sim,A1,stand-in,none,budget_exhausted_extractive,0.0,0.0,0.0,0,0,0,230.013
+overload-naive-retry-sim-001,overload-naive-retry-sim,A4,stand-in,full,answered,0.2,2756.5,0.0,0,3,0,2.785
+overload-naive-retry-sim-000,overload-naive-retry-sim,U4,stand-in,full,answered,0.2,4648.3,0.0,0,3,0,1.967
+overload-naive-retry-sim-002,overload-naive-retry-sim,A1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6825, Requested 1711. Please try again in 4.0s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,306.2,0.0,7,8,0,8.054
+overload-naive-retry-sim-003,overload-naive-retry-sim,M4,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6820, Requested 1759. Please try again in 4.3s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,973.0,0.1,7,8,0,8.426
+overload-naive-retry-sim-004,overload-naive-retry-sim,M3,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6512, Requested 1913. Please try again in 3.2s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.4,476.9,0.1,7,8,0,12.271
+overload-naive-retry-sim-005,overload-naive-retry-sim,X1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6556, Requested 1873. Please try again in 3.2s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.3,278.8,0.3,7,8,0,14.543
+overload-naive-retry-sim-006,overload-naive-retry-sim,A3,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6539, Requested 1933. Please try again in 3.5s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,401.4,0.1,7,8,0,14.819
+overload-naive-retry-sim-007,overload-naive-retry-sim,M7,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6323, Requested 1886. Please try again in 1.6s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,461.2,0.0,7,8,0,18.39
+overload-naive-retry-sim-008,overload-naive-retry-sim,A2,stand-in,full,answered_unverified,0.2,1291.2,0.1,7,9,0,18.562
+overload-naive-retry-sim-009,overload-naive-retry-sim,M6,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7883, Requested 1784. Please try again in 12.5s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,521.9,0.1,7,8,0,21.402
+overload-naive-retry-sim-011,overload-naive-retry-sim,H1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7929, Requested 1887. Please try again in 13.6s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,507.3,0.1,7,8,0,22.261
+overload-naive-retry-sim-010,overload-naive-retry-sim,U1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7836, Requested 1926. Please try again in 13.2s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,1915.6,0.0,7,8,0,21.776
+overload-naive-retry-sim-012,overload-naive-retry-sim,M2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7737, Requested 1751. Please try again in 11.2s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.3,505.5,0.1,7,8,0,25.015
+overload-naive-retry-sim-013,overload-naive-retry-sim,U2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6762, Requested 1799. Please try again in 4.2s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.3,274.6,0.1,7,8,0,33.784
+overload-naive-retry-sim-014,overload-naive-retry-sim,H4,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6875, Requested 2116. Please try again in 7.4s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,158.8,0.0,7,8,0,34.439
+overload-naive-retry-sim-015,overload-naive-retry-sim,H2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6796, Requested 1834. Please try again in 4.7s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.3,600.0,0.1,7,8,0,35.708
+overload-naive-retry-sim-016,overload-naive-retry-sim,M5,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6333, Requested 1906. Please try again in 1.8s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.3,283.9,0.1,7,8,0,40.644
+overload-naive-retry-sim-017,overload-naive-retry-sim,A5,stand-in,full,answered_unverified,0.4,1199.5,0.1,7,9,0,55.388
+overload-naive-retry-sim-018,overload-naive-retry-sim,H3,stand-in,full,answered_unverified,0.3,1102.7,0.1,7,9,0,59.687
+overload-naive-retry-sim-019,overload-naive-retry-sim,M1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7727, Requested 1936. Please try again in 12.5s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.3,608.8,0.1,7,8,0,62.221
+overload-naive-retry-sim-020,overload-naive-retry-sim,U3,stand-in,full,answered_unverified,0.3,499.7,0.1,7,9,0,80.925
+overload-naive-retry-sim-021,overload-naive-retry-sim,U4,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7595, Requested 1692. Please try again in 9.7s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.4,350.5,0.1,7,8,0,81.175
+overload-naive-retry-sim-022,overload-naive-retry-sim,A4,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6411, Requested 1691. Please try again in 0.8s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,628.9,0.0,7,8,0,90.939
+overload-naive-retry-sim-023,overload-naive-retry-sim,A1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6359, Requested 1711. Please try again in 0.5s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,500.5,0.0,7,8,0,92.65
+overload-naive-retry-sim-024,overload-naive-retry-sim,M4,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6485, Requested 1759. Please try again in 1.8s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.5,646.4,0.2,7,8,0,93.432
+overload-naive-retry-sim-025,overload-naive-retry-sim,M3,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6451, Requested 1913. Please try again in 2.7s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.3,447.2,0.1,7,8,0,94.046
+overload-naive-retry-sim-026,overload-naive-retry-sim,X1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6408, Requested 1873. Please try again in 2.1s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,344.1,0.1,7,8,0,95.895
+overload-naive-retry-sim-027,overload-naive-retry-sim,A3,stand-in,full,answered_unverified,0.3,1392.5,0.1,7,9,0,104.367
+overload-naive-retry-sim-028,overload-naive-retry-sim,M7,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7352, Requested 1886. Please try again in 9.3s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.3,1146.3,0.1,7,8,0,105.363
+overload-naive-retry-sim-029,overload-naive-retry-sim,A2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7058, Requested 1586. Please try again in 4.8s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.3,240.4,0.1,7,8,0,109.721
+overload-naive-retry-sim-030,overload-naive-retry-sim,M6,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6458, Requested 1784. Please try again in 1.8s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,753.1,0.1,7,8,0,114.814
+overload-naive-retry-sim-031,overload-naive-retry-sim,U1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6350, Requested 1926. Please try again in 2.1s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.3,392.6,0.1,7,8,0,117.146
+overload-naive-retry-sim-034,overload-naive-retry-sim,U2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7981, Requested 129. Please try again in 0.8s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,26.3,0.1,7,7,0,121.725
+overload-naive-retry-sim-033,overload-naive-retry-sim,M2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7980, Requested 1751. Please try again in 13.0s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,323.7,0.1,7,8,0,121.425
+overload-naive-retry-sim-032,overload-naive-retry-sim,H1,stand-in,full,answered_unverified,0.4,727.7,0.1,7,9,0,121.111
+overload-naive-retry-sim-035,overload-naive-retry-sim,H4,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7925, Requested 140. Please try again in 0.5s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,17.0,0.1,7,7,0,122.897
+overload-naive-retry-sim-036,overload-naive-retry-sim,H2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7204, Requested 1834. Please try again in 7.8s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,838.8,0.1,7,8,0,128.6
+overload-naive-retry-sim-037,overload-naive-retry-sim,M5,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6913, Requested 1906. Please try again in 6.1s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,1374.1,0.1,7,8,0,131.393
+overload-naive-retry-sim-038,overload-naive-retry-sim,A5,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6959, Requested 1812. Please try again in 5.8s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.3,302.2,0.1,7,8,0,133.279
+overload-naive-retry-sim-039,overload-naive-retry-sim,H3,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6517, Requested 1885. Please try again in 3.0s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.3,229.9,0.1,7,8,0,137.692
+overload-naive-retry-sim-040,overload-naive-retry-sim,M1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6199, Requested 1936. Please try again in 1.0s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.4,718.5,0.1,7,8,0,140.701
+overload-naive-retry-sim-041,overload-naive-retry-sim,U3,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6107, Requested 1960. Please try again in 0.5s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.4,784.0,0.1,7,8,0,142.487
+overload-naive-retry-sim-042,overload-naive-retry-sim,U4,stand-in,full,answered_unverified,0.2,749.7,0.1,7,9,0,150.385
+overload-naive-retry-sim-043,overload-naive-retry-sim,A4,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6334, Requested 1691. Please try again in 0.2s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,710.3,0.0,7,8,0,156.386
+overload-naive-retry-sim-044,overload-naive-retry-sim,A1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6360, Requested 1711. Please try again in 0.5s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,297.5,0.0,7,8,0,157.797
+overload-naive-retry-sim-045,overload-naive-retry-sim,M4,stand-in,full,answered_unverified,0.4,866.2,0.1,7,9,0,162.066
+overload-naive-retry-sim-046,overload-naive-retry-sim,M3,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7391, Requested 1913. Please try again in 9.8s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,361.5,0.1,7,8,0,165.785
+overload-naive-retry-sim-047,overload-naive-retry-sim,X1,stand-in,full,answered_unverified,0.3,1208.0,0.0,7,9,0,176.188
+overload-naive-retry-sim-048,overload-naive-retry-sim,A3,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7450, Requested 1933. Please try again in 10.4s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,283.8,0.1,7,8,0,182.726
+overload-naive-retry-sim-049,overload-naive-retry-sim,M7,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7310, Requested 1886. Please try again in 9.0s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,662.3,0.0,7,8,0,184.422
+overload-naive-retry-sim-050,overload-naive-retry-sim,A2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6713, Requested 1586. Please try again in 2.2s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.3,1261.0,0.1,7,8,0,204.025
+overload-naive-retry-sim-051,overload-naive-retry-sim,M6,stand-in,full,answered_unverified,0.2,1110.1,0.0,7,9,0,204.672
+overload-naive-retry-sim-052,overload-naive-retry-sim,U1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6614, Requested 1926. Please try again in 4.1s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,391.0,0.0,7,8,0,207.368
+overload-naive-retry-sim-053,overload-naive-retry-sim,H1,stand-in,full,answered_unverified,0.3,915.7,0.1,7,9,0,214.451
+overload-naive-retry-sim-054,overload-naive-retry-sim,M2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7836, Requested 1751. Please try again in 11.9s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,497.8,0.0,7,8,0,215.278
+overload-naive-retry-sim-056,overload-naive-retry-sim,H4,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7690, Requested 2116. Please try again in 13.5s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,404.5,0.0,7,8,0,218.82
+overload-naive-retry-sim-055,overload-naive-retry-sim,U2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7705, Requested 1799. Please try again in 11.3s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,748.1,0.0,7,8,0,218.618
+overload-naive-retry-sim-057,overload-naive-retry-sim,H2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7152, Requested 1834. Please try again in 7.4s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.4,306.3,0.1,7,8,0,224.325
+overload-naive-retry-sim-058,overload-naive-retry-sim,M5,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6286, Requested 1906. Please try again in 1.4s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,704.6,0.0,7,8,0,231.57
+overload-naive-retry-sim-059,overload-naive-retry-sim,A5,stand-in,full,answered_unverified,0.4,801.2,0.1,7,9,0,235.825
+overload-naive-retry-sim-060,overload-naive-retry-sim,H3,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6501, Requested 1885. Please try again in 2.9s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.4,775.4,0.1,7,8,0,246.232
+overload-naive-retry-sim-061,overload-naive-retry-sim,M1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6387, Requested 1936. Please try again in 2.4s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.3,857.7,0.1,7,8,0,248.121
+overload-naive-retry-sim-062,overload-naive-retry-sim,U3,stand-in,full,answered_unverified,0.3,1628.2,0.1,7,9,0,254.07
+overload-naive-retry-sim-063,overload-naive-retry-sim,U4,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7397, Requested 1692. Please try again in 8.2s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,526.7,0.1,7,8,0,258.583
+overload-naive-retry-sim-064,overload-naive-retry-sim,A4,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6985, Requested 1691. Please try again in 5.1s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.3,442.2,0.1,7,8,0,262.914
+overload-naive-retry-sim-065,overload-naive-retry-sim,A1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6714, Requested 1711. Please try again in 3.2s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,623.2,0.0,7,8,0,265.963
+overload-naive-retry-sim-066,overload-naive-retry-sim,M4,stand-in,full,answered_unverified,0.3,846.2,0.1,7,9,0,275.13
+overload-naive-retry-sim-067,overload-naive-retry-sim,M3,stand-in,full,answered_unverified,0.2,1572.8,0.0,7,9,0,289.598
+overload-naive-retry-sim-068,overload-naive-retry-sim,X1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7462, Requested 1873. Please try again in 10.0s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.3,470.7,0.1,7,8,0,292.811
+overload-naive-retry-sim-069,overload-naive-retry-sim,A3,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7030, Requested 1933. Please try again in 7.2s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,388.6,0.0,7,8,0,298.262
+overload-naive-retry-sim-070,overload-naive-retry-sim,M7,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7006, Requested 1886. Please try again in 6.7s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.3,408.1,0.1,7,8,0,298.572
+overload-no-retry-sim-001,overload-no-retry-sim,A4,stand-in,full,answered,0.1,2762.1,0.0,0,3,0,2.78
+overload-no-retry-sim-000,overload-no-retry-sim,U4,stand-in,full,answered,0.1,4638.4,0.0,0,3,0,1.967
+overload-no-retry-sim-002,overload-no-retry-sim,A1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6826, Requested 1711. Please try again in 4.0s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,303.6,0.0,1,2,0,8.038
+overload-no-retry-sim-003,overload-no-retry-sim,M4,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6821, Requested 1759. Please try again in 4.4s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,970.6,0.0,1,2,0,8.412
+overload-no-retry-sim-004,overload-no-retry-sim,M3,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6514, Requested 1913. Please try again in 3.2s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,459.1,0.0,1,2,0,12.261
+overload-no-retry-sim-005,overload-no-retry-sim,X1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6426, Requested 1873. Please try again in 2.2s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,276.2,0.0,1,2,0,14.53
+overload-no-retry-sim-006,overload-no-retry-sim,A3,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6542, Requested 1933. Please try again in 3.6s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,379.2,0.0,1,2,0,14.812
+overload-no-retry-sim-007,overload-no-retry-sim,M7,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6326, Requested 1886. Please try again in 1.6s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,444.1,0.0,1,2,0,18.372
+overload-no-retry-sim-008,overload-no-retry-sim,A2,stand-in,full,answered_unverified,0.2,1268.4,0.0,1,3,0,18.56
+overload-no-retry-sim-009,overload-no-retry-sim,M6,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7882, Requested 1784. Please try again in 12.5s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,511.8,0.0,1,2,0,21.4
+overload-no-retry-sim-011,overload-no-retry-sim,H1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7932, Requested 1887. Please try again in 13.6s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,489.6,0.0,1,2,0,22.248
+overload-no-retry-sim-010,overload-no-retry-sim,U1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7837, Requested 1926. Please try again in 13.2s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,1908.9,0.0,1,2,0,21.764
+overload-no-retry-sim-012,overload-no-retry-sim,M2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7739, Requested 1751. Please try again in 11.2s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,495.4,0.0,1,2,0,25.008
+overload-no-retry-sim-013,overload-no-retry-sim,U2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6763, Requested 1799. Please try again in 4.2s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,260.2,0.0,1,2,0,33.78
+overload-no-retry-sim-014,overload-no-retry-sim,H4,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6875, Requested 2116. Please try again in 7.4s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.2,150.7,0.0,1,2,0,34.434
+overload-no-retry-sim-015,overload-no-retry-sim,H2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6800, Requested 1834. Please try again in 4.8s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,585.8,0.0,1,2,0,35.687
+overload-no-retry-sim-016,overload-no-retry-sim,M5,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6336, Requested 1906. Please try again in 1.8s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,269.1,0.0,1,2,0,40.629
+overload-no-retry-sim-017,overload-no-retry-sim,A5,stand-in,full,answered_unverified,0.1,1159.0,0.0,1,3,0,55.392
+overload-no-retry-sim-018,overload-no-retry-sim,H3,stand-in,full,answered_unverified,0.2,1081.8,0.0,1,3,0,59.682
+overload-no-retry-sim-019,overload-no-retry-sim,M1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7730, Requested 1936. Please try again in 12.5s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,594.2,0.0,1,2,0,62.205
+overload-no-retry-sim-020,overload-no-retry-sim,U3,stand-in,full,answered_unverified,0.1,454.7,0.0,1,3,0,80.915
+overload-no-retry-sim-021,overload-no-retry-sim,U4,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7602, Requested 1692. Please try again in 9.7s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,320.7,0.0,1,2,0,81.149
+overload-no-retry-sim-022,overload-no-retry-sim,A4,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6412, Requested 1691. Please try again in 0.8s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,626.6,0.0,1,2,0,90.926
+overload-no-retry-sim-023,overload-no-retry-sim,A1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6361, Requested 1711. Please try again in 0.5s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,485.8,0.0,1,2,0,92.643
+overload-no-retry-sim-024,overload-no-retry-sim,M4,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6490, Requested 1759. Please try again in 1.9s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,607.6,0.0,1,2,0,93.421
+overload-no-retry-sim-025,overload-no-retry-sim,M3,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6454, Requested 1913. Please try again in 2.8s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,438.8,0.0,1,2,0,94.025
+overload-no-retry-sim-026,overload-no-retry-sim,X1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6410, Requested 1873. Please try again in 2.1s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,329.2,0.0,1,2,0,95.899
+overload-no-retry-sim-027,overload-no-retry-sim,A3,stand-in,full,answered_unverified,0.1,1375.3,0.0,1,3,0,104.358
+overload-no-retry-sim-028,overload-no-retry-sim,M7,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7354, Requested 1886. Please try again in 9.3s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,1129.3,0.0,1,2,0,105.361
+overload-no-retry-sim-029,overload-no-retry-sim,A2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7060, Requested 1586. Please try again in 4.8s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,227.9,0.0,1,2,0,109.712
+overload-no-retry-sim-030,overload-no-retry-sim,M6,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6458, Requested 1784. Please try again in 1.8s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,739.7,0.0,1,2,0,114.812
+overload-no-retry-sim-031,overload-no-retry-sim,U1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6351, Requested 1926. Please try again in 2.1s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,378.8,0.0,1,2,0,117.148
+overload-no-retry-sim-034,overload-no-retry-sim,U2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7982, Requested 129. Please try again in 0.8s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.0,10.2,0.0,1,1,0,121.725
+overload-no-retry-sim-033,overload-no-retry-sim,M2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7981, Requested 1751. Please try again in 13.0s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,308.3,0.0,1,2,0,121.426
+overload-no-retry-sim-032,overload-no-retry-sim,H1,stand-in,full,answered_unverified,0.2,716.5,0.0,1,3,0,121.114
+overload-no-retry-sim-035,overload-no-retry-sim,H4,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7928, Requested 140. Please try again in 0.5s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,4.4,0.0,1,1,0,122.885
+overload-no-retry-sim-036,overload-no-retry-sim,H2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7206, Requested 1834. Please try again in 7.8s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,829.1,0.0,1,2,0,128.586
+overload-no-retry-sim-037,overload-no-retry-sim,M5,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6915, Requested 1906. Please try again in 6.2s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,1351.5,0.0,1,2,0,131.388
+overload-no-retry-sim-038,overload-no-retry-sim,A5,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6963, Requested 1812. Please try again in 5.8s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,285.3,0.0,1,2,0,133.261
+overload-no-retry-sim-039,overload-no-retry-sim,H3,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6522, Requested 1885. Please try again in 3.1s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,210.1,0.0,1,2,0,137.666
+overload-no-retry-sim-040,overload-no-retry-sim,M1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6205, Requested 1936. Please try again in 1.1s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,691.8,0.0,1,2,0,140.677
+overload-no-retry-sim-041,overload-no-retry-sim,U3,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6113, Requested 1960. Please try again in 0.5s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,751.4,0.0,1,2,0,142.473
+overload-no-retry-sim-042,overload-no-retry-sim,U4,stand-in,full,answered_unverified,0.1,703.0,0.0,1,3,0,150.375
+overload-no-retry-sim-043,overload-no-retry-sim,A4,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6337, Requested 1691. Please try again in 0.2s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,685.9,0.0,1,2,0,156.385
+overload-no-retry-sim-044,overload-no-retry-sim,A1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6362, Requested 1711. Please try again in 0.6s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,287.4,0.0,1,2,0,157.785
+overload-no-retry-sim-045,overload-no-retry-sim,M4,stand-in,full,answered_unverified,0.1,885.3,0.0,1,3,0,162.057
+overload-no-retry-sim-046,overload-no-retry-sim,M3,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7394, Requested 1913. Please try again in 9.8s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,349.8,0.0,1,2,0,165.773
+overload-no-retry-sim-047,overload-no-retry-sim,X1,stand-in,full,answered_unverified,0.1,1225.2,0.0,1,3,0,176.187
+overload-no-retry-sim-048,overload-no-retry-sim,A3,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7452, Requested 1933. Please try again in 10.4s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,267.8,0.0,1,2,0,182.715
+overload-no-retry-sim-049,overload-no-retry-sim,M7,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7312, Requested 1886. Please try again in 9.0s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,641.3,0.0,1,2,0,184.421
+overload-no-retry-sim-050,overload-no-retry-sim,A2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6716, Requested 1586. Please try again in 2.3s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,1252.7,0.0,1,2,0,204.012
+overload-no-retry-sim-051,overload-no-retry-sim,M6,stand-in,full,answered_unverified,0.1,1083.9,0.0,1,3,0,204.652
+overload-no-retry-sim-052,overload-no-retry-sim,U1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6614, Requested 1926. Please try again in 4.1s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,407.5,0.0,1,2,0,207.349
+overload-no-retry-sim-053,overload-no-retry-sim,H1,stand-in,full,answered_unverified,0.1,908.3,0.0,1,3,0,214.44
+overload-no-retry-sim-054,overload-no-retry-sim,M2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7844, Requested 1751. Please try again in 12.0s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,456.2,0.0,1,2,0,215.253
+overload-no-retry-sim-056,overload-no-retry-sim,H4,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7692, Requested 2116. Please try again in 13.6s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,398.0,0.0,1,2,0,218.804
+overload-no-retry-sim-055,overload-no-retry-sim,U2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7706, Requested 1799. Please try again in 11.3s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,754.5,0.0,1,2,0,218.603
+overload-no-retry-sim-057,overload-no-retry-sim,H2,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7154, Requested 1834. Please try again in 7.4s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,284.3,0.0,1,2,0,224.327
+overload-no-retry-sim-058,overload-no-retry-sim,M5,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6289, Requested 1906. Please try again in 1.5s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,689.8,0.0,1,2,0,231.556
+overload-no-retry-sim-059,overload-no-retry-sim,A5,stand-in,full,answered_unverified,0.1,762.4,0.0,1,3,0,235.824
+overload-no-retry-sim-060,overload-no-retry-sim,H3,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6509, Requested 1885. Please try again in 3.0s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,707.5,0.0,1,2,0,246.231
+overload-no-retry-sim-061,overload-no-retry-sim,M1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6388, Requested 1936. Please try again in 2.4s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,860.7,0.0,1,2,0,248.102
+overload-no-retry-sim-062,overload-no-retry-sim,U3,stand-in,full,answered_unverified,0.1,1632.1,0.0,1,3,0,254.053
+overload-no-retry-sim-063,overload-no-retry-sim,U4,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7399, Requested 1692. Please try again in 8.2s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,521.7,0.0,1,2,0,258.568
+overload-no-retry-sim-064,overload-no-retry-sim,A4,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6991, Requested 1691. Please try again in 5.1s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,406.2,0.0,1,2,0,262.909
+overload-no-retry-sim-065,overload-no-retry-sim,A1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6718, Requested 1711. Please try again in 3.2s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,611.9,0.0,1,2,0,265.941
+overload-no-retry-sim-066,overload-no-retry-sim,M4,stand-in,full,answered_unverified,0.1,829.3,0.0,1,3,0,275.105
+overload-no-retry-sim-067,overload-no-retry-sim,M3,stand-in,full,answered_unverified,0.1,1546.2,0.0,1,3,0,289.588
+overload-no-retry-sim-068,overload-no-retry-sim,X1,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7467, Requested 1873. Please try again in 10.1s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,443.5,0.0,1,2,0,292.799
+overload-no-retry-sim-069,overload-no-retry-sim,A3,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7039, Requested 1933. Please try again in 7.3s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,332.4,0.0,1,2,0,298.247
+overload-no-retry-sim-070,overload-no-retry-sim,M7,stand-in,full,"429 {""error"":{""message"":""Rate limit reached for model `standin` in organization `org_standin` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7007, Requested 1886. Please try again in 6.7s."",""type"":""tokens"",""code"":""rate_limit_exceeded""}}",0.1,391.7,0.0,1,2,0,298.574
